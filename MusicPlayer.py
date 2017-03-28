@@ -112,6 +112,5 @@ def musicMainfunc():
 				pin = -1
 				remote = -1
 		curSong+=1
-		
-main = threading.Thread(target=musicMainfunc)
-main.start()
+	
+musicMainfunc()
